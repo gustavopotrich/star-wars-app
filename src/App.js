@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+/**
+ * The main application component for rendering the Star Wars application.
+ * This component serves as the root component of the application and is responsible
+ * for rendering the StarWarsApp component within a div container.
+ *
+ * @component
+ * @returns {JSX.Element} The rendered component for the application.
+ */
+// src/App.js
+import React from "react";
+import StarWarsApp from "./StarWarsApp";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <StarWarsApp />
     </div>
   );
 }

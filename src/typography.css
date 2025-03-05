@@ -1,0 +1,98 @@
+/**
+* typography.css
+*
+* This stylesheet defines the typography styles for character-related elements
+* within a web page. It includes styles for various text elements such as 
+* paragraphs, headings, and lists, ensuring a consistent and thematic appearance.
+*
+* Styles:
+* 
+* 1. .character-container p, .character-container strong:
+*    - Sets the font size to 18px and displays the elements inline.
+*
+* 2. .character-container .character-name h2:
+*    - Applies a custom font "Star Jout" with a fallback to sans-serif.
+*    - Sets the font size to 36px for character names.
+*
+* 3. .character-name:
+*    - Sets the font size to 16px.
+*    - Utilizes flexbox for centering content both vertically and horizontally.
+*    - Ensures text is centered and spans the full width of the container.
+*
+* 4. .character-detail:
+*    - Aligns text to the left.
+*
+* 5. .character-detail p, .character-detail strong:
+*    - Uses the "Star Jedi Spec" font for paragraphs and strong elements.
+*    - Transforms strong text to lowercase and applies a gold drop shadow.
+*
+* 6. .character-detail ul li:
+*    - Removes bullet points and adds spacing between list items.
+*    - Adjusts margins for the first and last list items for visual balance.
+*
+* 7. .list-inline:
+*    - Displays elements inline with a font size of 20px.
+*    - Applies the "Star Jedi Spec" font and lowercase transformation to spans.
+*
+* This stylesheet enhances the visual presentation of character elements, 
+* contributing to a cohesive and immersive user experience.
+*/
+/* typography.css */
+
+.character-container p,
+.character-container strong {
+  font-size: 18px;
+  display: inline;
+}
+
+.character-container .character-name h2 {
+  font-family: "Star Jout", sans-serif;
+  font-size: 36px;
+}
+
+.character-name {
+  font-size: 16px;
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center;
+  width: 100%;
+}
+
+.character-detail {
+  text-align: left;
+}
+
+.character-detail p {
+  font-family: "Star Jedi Spec";
+}
+
+.character-detail strong {
+  font-family: "Star Jedi Spec";
+  text-transform: lowercase;
+  filter: drop-shadow(1px 1px 0px #ffd700);
+}
+
+.character-detail ul li {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+.character-detail ul li:first-child {
+  margin: 1rem auto;
+}
+
+.character-detail ul li:last-child {
+  margin-bottom: 0rem;
+}
+
+.list-inline {
+  display: inline;
+  font-size: 20px;
+}
+
+.list-inline span {
+  display: inline;
+  font-family: "Star Jedi Spec";
+  text-transform: lowercase;
+}

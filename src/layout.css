@@ -1,0 +1,209 @@
+/**
+* layout.css
+*
+* This stylesheet defines the layout and styling for the main components of the web application.
+* It includes styles for containers, headers, buttons, and other UI elements, ensuring a cohesive
+* and visually appealing design. The styles are tailored to create a flexible and responsive layout
+* with a focus on alignment, spacing, and typography.
+*
+* Key Components:
+* - .main-container: The primary container for the application content, styled with a semi-transparent
+*   background, centered alignment, and a flexible column layout. It also includes custom scrollbar
+*   styling for a consistent look across different browsers.
+* - Headers (h1): Styled with a unique "Star Jedi" font and a drop-shadow effect to enhance the visual
+*   hierarchy and thematic consistency.
+* - .character-name: Specific styling for character name headers, ensuring consistency with the main
+*   headers while allowing for additional customization.
+* - .search-container: A flexbox container for search inputs and buttons, designed for easy alignment
+*   and spacing of search-related elements.
+* - .new-search-button: A button styled for initiating new searches, with a focus on alignment and
+*   consistent typography.
+* - .character-container: A container for displaying character information, utilizing a column layout
+*   for organized content presentation.
+* - .pagination-buttons: Styled for navigation controls, ensuring easy access and visibility.
+* - .info-button-container and .info-icon: Positioned for quick access to additional information, with
+*   a distinct color and shadow effect for emphasis.
+* - .first-part and .second-part: Sections within the main container, each with specific layout
+*   configurations to accommodate different content types.
+* - .character-image: Styled for displaying character images with defined dimensions and a shadow effect
+*   to create depth.
+* - .error-message: Styled to display error messages with a thematic font and color, ensuring they are
+*   noticeable and consistent with the overall design.
+*
+* The stylesheet leverages modern CSS features such as flexbox for layout management, custom properties
+* for consistent styling, and media queries for responsive design adjustments.
+*/
+/* layout.css */
+
+.main-container {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: inline-block;
+  border-radius: 1rem;
+  padding: 1.2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  box-shadow: 6px 6px 10px #ffd700;
+  max-height: 100vh;
+  overflow-y: auto;
+  width: 100%;
+  max-width: 850px;
+  height: 890px;
+  max-height: 100vh;
+  overflow-y: auto;
+}
+
+.main-container h1 {
+  margin: 0;
+  font-family: "Star Jedi", sans-serif;
+  font-size: 30px;
+  text-transform: lowercase;
+  filter: drop-shadow(2px 2px 1px #ffd700);
+  width: 90%;
+}
+
+.character-name h1 {
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Add padding if needed */
+  font-family: "Star Jedi", sans-serif;
+  font-size: 30px;
+  text-transform: lowercase;
+}
+
+/* ========== TESTING SOME FEATURES IN SCROLLBAR ========== */
+.main-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.main-container::-webkit-scrollbar-thumb {
+  background-color: #ffd700;
+  border-radius: 4px;
+}
+
+.main-container::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* gap: 5rem; */
+  /* margin: 1rem auto 0rem auto; */
+  font-family: "Star Jedi";
+  width: 80%;
+}
+
+.search-container input:focus {
+  border: 3px solid #ffd700; /* Ensure the focus state also uses the yellow color */
+}
+
+.search-container input,
+.search-container button,
+.new-search-button {
+  padding: 0.5rem;
+  font-family: "Star Jedi";
+  font-size: 16px;
+  text-transform: lowercase;
+}
+
+.new-search-button {
+  text-align: center;
+  /* max-width: 24%; */
+  /* margin: auto; */
+  width: 24%;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.character-container {
+  border: 1px solid transparent;
+  padding: 0rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.8rem;
+  width: 90%;
+  margin: 0rem auto;
+}
+
+.pagination-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.info-button-container {
+  position: absolute;
+  top: 0.8rem;
+  right: 0.8rem;
+  cursor: pointer;
+}
+
+.info-icon {
+  color: #ffd700;
+  font-size: 24px;
+  filter: drop-shadow(3px 3px 3px rgb(0, 0, 0, 0.5));
+}
+
+.main-container .first-part {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.main-container .first-part .left-side,
+.main-container .first-part .right-side {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.first-part .left-side {
+  align-items: flex-start;
+  gap: 0.8rem;
+}
+
+.first-part .right-side {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center; /* Center the image horizontally */
+  height: 100%; /* Ensure the parent div has a defined height */
+}
+
+.character-image {
+  height: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+}
+
+.second-part {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+
+.main-container .error-message {
+  font-family: "Star Jedi Spec";
+  color: #000000;
+  font-size: 24px;
+  text-transform: lowercase;
+  filter: drop-shadow(2px 2px 1px #ffd700);
+}

@@ -1,0 +1,56 @@
+/* fonts.css */
+
+@font-face {
+  font-family: "Star Jedi Spec";
+  font-style: normal;
+  font-weight: normal;
+  src: local("StarJedi Special Edition Regular"),
+    url("./fonts/STJEDISE.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Star Jedi";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Star Jedi Regular"), url("./fonts/Starjedi.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Star Jedi Hol";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Star Jedi Hollow Regular"),
+    url("./fonts/Starjhol.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Star Jedi Out";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Star Jedi Outline Regular"),
+    url("./fonts/Starjout.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Star Jedi DB1";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Star Jedi Logo DoubleLine1 Regular"),
+    url("./fonts/Stjldbl1.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Star Jedi DB2";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Star Jedi Logo DoubleLine2 Regular"),
+    url("./fonts/Stjldbl2.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Star Jedi Mono";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Star Jedi Logo MonoLine Regular"),
+    url("./fonts/Strjmono.woff") format("woff");
+}

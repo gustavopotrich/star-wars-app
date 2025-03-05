@@ -1,0 +1,11 @@
+/* StarWarsApp.css */
+
+/* Import modular CSS files */
+@import url("./global.css");
+@import url("./layout.css");
+@import url("./typography.css");
+@import url("./buttons.css");
+@import url("./particles.css");
+@import url("./media-queries.css");
+
+/* Any additional styles specific to the StarWarsApp component can remain here */

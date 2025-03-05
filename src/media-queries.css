@@ -1,0 +1,147 @@
+/**
+* @file media-queries.css
+* 
+* @description
+* This stylesheet contains media queries designed to enhance the responsiveness of a web page. 
+* It adjusts the layout and styling of various components based on the viewport width, 
+* ensuring an optimal viewing experience across different devices.
+* 
+* @media (max-width: 780px)
+* - Adjusts the layout for medium-sized screens, such as tablets.
+* - Reduces font sizes and adjusts the layout of elements like the main container, character container, 
+*   and search container to fit within the constraints of the screen width.
+* - Ensures elements like buttons, images, and tooltips are resized and repositioned for better accessibility.
+* 
+* @media (max-width: 400px)
+* - Further refines the layout for smaller screens, such as mobile phones.
+* - Decreases font sizes and image heights to maintain readability and usability on compact displays.
+* - Centers the main container and adjusts the search container's input and button sizes for a more 
+*   user-friendly interface on narrow screens.
+* 
+* Overall, this stylesheet aims to provide a seamless and consistent user experience by dynamically 
+* adapting the design to various screen sizes.
+*/
+/* media-queries.css */
+
+@media (max-width: 780px) {
+  .main-container {
+    width: 90%;
+    height: auto;
+    padding: 0px;
+    gap: 0.5rem;
+    justify-content: center;
+    max-height: 680px !important;
+  }
+
+  .main-container h1,
+  .character-container h1 {
+    font-size: 18px;
+    width: 95%;
+  }
+
+  .character-container p,
+  .character-container strong {
+    font-size: 10px;
+  }
+
+  .character-container {
+    flex-direction: column;
+    gap: 0rem;
+  }
+
+  .second-part {
+    gap: 0rem;
+  }
+
+  .first-part .left-side {
+    align-items: flex-start;
+    gap: 0rem;
+  }
+
+  .left-side,
+  .right-side {
+    width: 100%;
+  }
+
+  .character-image {
+    width: auto;
+    height: 150px;
+    margin: 0.5rem auto;
+  }
+
+  .search-container {
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1rem auto;
+  }
+
+  .new-search-button {
+    width: 50%;
+    font-size: 10px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 0.5rem;
+  }
+
+  .pagination-buttons button {
+    font-size: 10px;
+  }
+
+  .input-wrapper {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .search-container button,
+  .search-container input {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .custom-tooltip {
+    left: 20px !important;
+    top: 12px !important;
+    width: 80% !important;
+    font-size: 10px !important;
+  }
+
+  .react-tooltip-arrow {
+    top: 8px !important;
+    left: 266px !important;
+  }
+
+  [class*="react-tooltip__place-bottom"] > .styles-module_arrow__K0L3T {
+    transform: rotate(135deg) !important;
+  }
+
+  .main-container .first-part {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 400px) {
+  .main-container {
+    width: 90%;
+    height: auto;
+    padding: 0px;
+    gap: 0.5rem;
+    justify-content: center;
+    max-height: 630px !important;
+    margin: auto;
+  }
+
+  .search-container button,
+  .search-container input {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .character-image {
+    height: 100px;
+  }
+
+  .main-container h1,
+  .character-container h1 {
+    font-size: 14px;
+  }
+}

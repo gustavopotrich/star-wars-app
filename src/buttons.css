@@ -1,0 +1,39 @@
+/* buttons.css */
+
+button,
+.search-container button,
+.new-search-button {
+  background-color: #000;
+  color: #ffd700;
+  border: 2px solid #ffd700;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-family: "Star Jedi", sans-serif;
+  transition: background-color 0.3s ease, transform 0.3s ease,
+    box-shadow 0.3s ease;
+  font-size: 16px;
+}
+
+button:hover,
+.search-container button:hover,
+.new-search-button:hover {
+  background-color: #ffd700;
+  color: #000;
+  box-shadow: 0 0 8px #ffd700, 0 0 16px #ffd700, 0 0 24px #ffd700;
+  transform: scale(1.05);
+}
+
+button:focus,
+.search-container button:focus,
+.new-search-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 215, 0, 0.5);
+}
+
+button:active,
+.search-container button:active,
+.new-search-button:active {
+  transform: scale(0.95);
+  box-shadow: 0 0 5px #ffd700, 0 0 10px #ffd700;
+}

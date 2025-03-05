@@ -1,0 +1,30 @@
+/* InfoButton.css */
+
+.info-button-container {
+  position: relative;
+  display: inline-block;
+}
+
+.info-button {
+  background: none;
+  border: none;
+  color: #ffd700;
+  cursor: pointer;
+  font-size: 16px;
+  position: relative;
+}
+
+.tooltip {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #000;
+  color: #ffd700;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 8px #ffd700;
+  white-space: nowrap;
+  z-index: 10;
+}
