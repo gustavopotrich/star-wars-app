@@ -21,6 +21,7 @@ npm install
 Start the application:
 
 npm start
+
 Usage
 Enter the name of a Star Wars character in the search bar and click "Search".
 Use the "Next" and "Previous" buttons to navigate through the list of characters.
