@@ -17,11 +17,11 @@ A React application that allows users to search for Star Wars characters and vie
    cd star-wars-character-search
    
 2. **Install dependencies**:
-
+```bash
 npm install
 
 3. **Start the application**:
-
+```bash
 npm start
 
 ## Usage
