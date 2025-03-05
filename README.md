@@ -22,11 +22,12 @@ Start the application:
 
 npm start
 
-Usage
+## Usage
 Enter the name of a Star Wars character in the search bar and click "Search".
 Use the "Next" and "Previous" buttons to navigate through the list of characters.
 Click on a character to view detailed information, including films, vehicles, and starships.
-Technologies Used
+
+## Technologies Used
 React: JavaScript library for building user interfaces.
 Axios: Promise-based HTTP client for making API requests.
 React Tooltip: Library for creating tooltips in React.
@@ -34,8 +35,8 @@ FontAwesome: Icon library for adding icons to the application.
 Contributing
 Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
 
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Acknowledgments
+## Acknowledgments
 SWAPI: The Star Wars API used for fetching character data.
