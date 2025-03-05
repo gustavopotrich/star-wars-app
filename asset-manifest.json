@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.bbb856db.css",
-    "main.js": "/static/js/main.b0040169.js",
-    "static/media/Starjout.woff": "/static/media/Starjout.407526ebe4e5a7d5488f.woff",
-    "static/media/Starjhol.woff": "/static/media/Starjhol.7843c788b58c2e0ce21b.woff",
-    "static/media/Starjedi.woff": "/static/media/Starjedi.bf57c3e05ff41c3bb031.woff",
-    "static/media/STJEDISE.woff": "/static/media/STJEDISE.30bed6b95542419f7c9f.woff",
-    "static/media/Strjmono.woff": "/static/media/Strjmono.3af41ca7e8f3b2096821.woff",
-    "static/media/Stjldbl1.woff": "/static/media/Stjldbl1.ea47a7d3e4362cdb4e51.woff",
-    "static/media/Stjldbl2.woff": "/static/media/Stjldbl2.d0e8f333241b2bf4dd52.woff",
-    "index.html": "/index.html",
-    "main.bbb856db.css.map": "/static/css/main.bbb856db.css.map",
-    "main.b0040169.js.map": "/static/js/main.b0040169.js.map"
+    "main.css": "/star-wars-app/static/css/main.a179d8f5.css",
+    "main.js": "/star-wars-app/static/js/main.30d1cad7.js",
+    "static/media/Starjout.woff": "/star-wars-app/static/media/Starjout.407526ebe4e5a7d5488f.woff",
+    "static/media/Starjhol.woff": "/star-wars-app/static/media/Starjhol.7843c788b58c2e0ce21b.woff",
+    "static/media/Starjedi.woff": "/star-wars-app/static/media/Starjedi.bf57c3e05ff41c3bb031.woff",
+    "static/media/STJEDISE.woff": "/star-wars-app/static/media/STJEDISE.30bed6b95542419f7c9f.woff",
+    "static/media/Strjmono.woff": "/star-wars-app/static/media/Strjmono.3af41ca7e8f3b2096821.woff",
+    "static/media/Stjldbl1.woff": "/star-wars-app/static/media/Stjldbl1.ea47a7d3e4362cdb4e51.woff",
+    "static/media/Stjldbl2.woff": "/star-wars-app/static/media/Stjldbl2.d0e8f333241b2bf4dd52.woff",
+    "index.html": "/star-wars-app/index.html",
+    "main.a179d8f5.css.map": "/star-wars-app/static/css/main.a179d8f5.css.map",
+    "main.30d1cad7.js.map": "/star-wars-app/static/js/main.30d1cad7.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbb856db.css",
-    "static/js/main.b0040169.js"
+    "static/css/main.a179d8f5.css",
+    "static/js/main.30d1cad7.js"
   ]
 }
