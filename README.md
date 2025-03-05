@@ -16,11 +16,11 @@ A React application that allows users to search for Star Wars characters and vie
    git clone https://github.com/your-username/star-wars-character-search.git
    cd star-wars-character-search
    
-2. **Install dependencies:
+2. **Install dependencies**:
 
 npm install
 
-3. **Start the application:
+3. **Start the application**:
 
 npm start
 
