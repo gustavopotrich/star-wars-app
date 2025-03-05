@@ -9,18 +9,6 @@ A React application that allows users to search for Star Wars characters and vie
 - **Pagination**: Navigate through characters using "Next" and "Previous" buttons.
 - **Detailed Information**: View character details, films, vehicles, and starships.
 
-## Installation
-
-1. **Clone the repository**:
-git clone https://github.com/your-username/star-wars-character-search.git
-cd star-wars-character-search
-   
-2. **Install dependencies**:
-npm install
-
-3. **Start the application**:
-npm start
-
 ## Usage
 Enter the name of a Star Wars character in the search bar and click "Search".
 Use the "Next" and "Previous" buttons to navigate through the list of characters.
