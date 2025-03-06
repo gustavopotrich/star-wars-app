@@ -20,6 +20,9 @@ Axios: Promise-based HTTP client for making API requests.<br>
 React Tooltip: Library for creating tooltips in React.<br>
 FontAwesome: Icon library for adding icons to the application.<br>
 
+## GitHub Pages
+This application is hosted on GitHub Pages. You can view the live version of the application by visiting the following link: [Star Wars App](https://gustavopotrich.github.io/star-wars-app/)<br>
+
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.<br>
 
@@ -28,3 +31,5 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Acknowledgments
 SWAPI: The Star Wars API used for fetching character data.<br>
+
+## 
